@@ -1,5 +1,6 @@
+[#ftl]
 <!DOCTYPE html>
-<html lang="cs" xmlns:th="http://www.thymeleaf.org">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <title>Registrace na letní dětský tábor</title>
@@ -7,6 +8,6 @@
     <link rel="icon" type="image/png" href="/images/favicon.png">
 </head>
 <body>
-    TODO
+
 </body>
 </html>
