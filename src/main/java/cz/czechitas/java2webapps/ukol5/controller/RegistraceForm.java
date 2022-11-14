@@ -12,7 +12,7 @@ public class RegistraceForm {
     @NotBlank
     @Size(min = 3, max = 150)
     private String prijmeni;
-    @DateTimeFormat(pattern = "yyyy/mm/dd")
+    @DateTimeFormat(pattern = "yyyy/MM/dd")
     private LocalDate datumNarozeni;
     @NotBlank
     private String pohlavi;
@@ -77,4 +77,5 @@ public class RegistraceForm {
     public void setTelefonNaRodice(String telefonNaRodice) {
         this.telefonNaRodice = telefonNaRodice;
     }
+
 }
